@@ -1,0 +1,19 @@
+/*===========reset_code==========*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h4,h6{
+	margin: 0px;
+}
+/*===========reset_code==========*/
+/*===========reset_code==========*/
+/*===========reset_code==========*/
+/*===========reset_code==========*/
+/*===========reset_code==========*/
+/*		Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*		Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {}
+/*		Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
