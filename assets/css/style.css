@@ -217,7 +217,7 @@ h1,h2,h3,h4,h4,h6{
 .team-member i:hover{
     color: var(--prayColor);
 }
-/*===========menu-css==========*/
+/*===========portfolio-css==========*/
 #portfolio-area{}
  .glider span{
    font-size: 30px;
@@ -268,7 +268,56 @@ h1,h2,h3,h4,h4,h6{
  .glider-slide img {
     width: 100%;
   }
-/*===========menu-css==========*/
+/*===========contract-css==========*/
+ #contract-area{
+  margin:6% 6%;
+ }
+ #contract-area h1{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1%;
+ }
+ #contract-area h2{
+  font-family: var(--styleFont);
+  text-align: center;
+}
+.contract-left input{}
+.contract-left input[type="text"],input[type="email"]{
+   width: 100%;
+   padding: 5%;
+   margin:2% 0;
+
+}
+.contract-right textarea{
+    resize: none;  
+    width:100%;
+    margin:2% 0;
+    height: 290px;
+    padding: 20px;
+}
+/* ============= bottom-area==========*/
+ #bottom-area{
+  background: black;
+  padding: 5%;
+ }
+ .bottom-area-icon{
+  justify-content: center;
+ }
+ .bottom-area-icon a i{
+   color: #595959;
+   padding:.5%;
+   font-size: 1em;
+   border: 1px solid  #595959;
+   border-radius: 50%;
+   background: #595959;
+   color: #fff;
+ }
+ .bottom-area-icon a i:hover{
+   background: var(--prayColor);
+ }
+ .bottom-area-icon{
+
+ }
 /*		Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 /*		Mobile Layout: 320px. */
