@@ -3,14 +3,272 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+  font-family: 'Poppins', sans-serif;
+}
 h1,h2,h3,h4,h4,h6{
 	margin: 0px;
 }
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
+:root{
+ --styleFont:'Great Vibes', cursive;
+ --prayColor: #EFC34A;
+ --seconColor:;
+}
+/*===========header-nav-area==========*/
+#header-nav-area{
+  background: black;
+  height: 20%;
+  color: #fff;
+}
+.head-nav-icon i{
+	padding: 2%;
+}
+.head-nav-middle-text{}
+.head-nav-right-text p{
+ float: right;
+}
+
+/*===========header-bottom-area==========*/
+#header-area{
+	color:black;
+}
+.navbar a p{
+	color: black;
+}
+.navbar-survival101 {
+  background-color:#2B6DAD;
+  border-bottom: 2px solid red;
+}
+#navigation  li a{
+	color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+}
+ 
+/*===========slider-area==========*/
+#slider-area{
+}
+.mySlides {
+  display:none;
+}
+.slider{
+  height: 90vh; 
+  overflow: hidden;
+  align-items: justify;
+} 
+.mySlides{
+ width: 100%;
+  }
+/*====================================================================
+              story-area css                                    
+=====================================================================*/
+#story-area{
+   margin:6% 0 0 6%;
+}
+.story-content h1{
+  font-family: var(--styleFont);
+}
+.story-content h2{}
+.story-content p{}
+.story-bg{
+  height: 350px;
+  overflow: hidden;
+}
+.story-bg img{
+  width: 90%;
+  border:10px solid var(--prayColor); 
+}
+/*====================================================================
+              story-area css                                    
+  =====================================================================*/
+  .opaning-wrapper{
+  background: url(../images/opaning.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  }
+  .opaning-wrapper{
+      height: 50vh;
+      background-color: red;
+  }
+  .opaning-hadding{
+  }
+  .opaning-hadding h1{
+    font-weight: bold;
+  }
+  .opaning-hadding h2{
+    font-family: var(--styleFont);
+  }
+  .opaning-box{
+    display: flex;
+    justify-content: center;
+  }
+  .opaning-middel{
+    border-left: 10px solid red;
+  }
+  #opaning-area h5{
+    text-align: center;
+  }
+  
+/*===========menu-css==========*/
+#menu-area{}
+#menu-area h1{
+  text-align: center;
+}
+.menu-title{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+.menu-title div{
+  margin:0 2%;
+}
+ .menu-items {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  text-shadow: 5px 0 100px black;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.menu-item-ovrelay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.menu-items:hover .image {
+  opacity: 0.8;
+  /*transform: scale(1.5);*/
+    }
+.menu-items:hover .menu-item-ovrelay {
+  opacity: 1;
+}
+#menu-btn{
+  background: var(--prayColor);
+  padding:  5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin:100px 0;
+} 
+
+/*===========team-area-css==========*/
+#team-area{
+  margin:6% 0;
+}
+.team-hadding h1{
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+.team-hadding h2{
+  font-family: var(--styleFont);
+}
+.team-hadding p{
+  margin:1% 10% 3% 10%;
+}
+.team-member{
+
+  transition: .8s;
+}
+.team-member:hover{
+  box-shadow: 0 0 20px var(--prayColor);
+  transform:translateY(-1%);
+}
+.team-member img{
+  width: 100%;
+ height: 280px;
+}
+.team-member h3{
+  font-size: 20px;
+
+}
+.team-member p{
+  font-family: var(--styleFont);
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.team-member i{
+  font-size: 20px;
+  padding: 0 3%;
+  margin:2% 0 8% 0;
+ 
+  color: #606060;
+}
+.team-member i:hover{
+    color: var(--prayColor);
+}
+/*===========menu-css==========*/
+#portfolio-area{}
+ .glider span{
+   font-size: 30px;
+   font-style: bold;
+ }
+ .glider h3{
+    margin-top: 15%;
+    font-size: 20px;
+ }
+.cd-fixed-bg {  
+  min-height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
+.cd-fixed-bg.cd-fixed-bg--1 {
+  background-image: url("../images/opaning-1.jpg");
+  background-size: cover;
+   position: relative;
+   z-index: 1;
+   color: #fff;
+  }
+.cd-fixed-bg.cd-fixed-bg--1:after{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;  
+    opacity: .8;
+    z-index: -1;
+ }
+.cd-scrolling-bg {
+  min-height: 100%;
+}
+ .glider-contain {
+    width    : 90%;
+    max-width: 997px;
+    margin   : 0 auto;
+   }
+ .glider div{
+  height: 350px;
+  }       
+ .glider-slide {
+    min-height: 150px;
+  }
+ .glider-slide img {
+    width: 100%;
+  }
+/*===========menu-css==========*/
 /*		Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 /*		Mobile Layout: 320px. */
