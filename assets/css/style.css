@@ -378,6 +378,117 @@ background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(7,7,7,1) 50%, r
  .bottom-area-icon{
 
  }
+ /*=====================================================
+                    menu-css
+========================================================*/
+/*=========menu-slider==========*/
+#menu-slider{
+  background: url(../images/slide1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+} 
+#menu-slider h1{
+  padding-top: 
+  color: #fff;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 50px black;
+}
+#menu-slider p{
+   margin: 0 20%;
+   text-align: center;
+   color: #fff;
+   text-shadow: 2px 2px 50px black;
+}
+#menu-item-TOP h2{
+   border-bottom: 2px solid var(--prayColor);
+   padding: 3% 0;
+}
+.single-menu-item{
+  margin: 5% 0;
+}                   
+.single-menu-item h3{
+  font-size: 20px;
+  color: var(--prayColor);
+}                   
+.single-menu-item span{
+  font-size: 35px;
+  letter-spacing: 5px;
+}                   
+.single-menu-item{}
+/*=======menu-item-LUNCH===============*/
+#menu-item-LUNCH{}
+.menu-item-LUNCH-bg{
+  background:url(../images/slide3.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  height:40vh;
+}
+.menu-item-LUNCH-bg h1{
+  font-size:3em;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  padding: 5% 0 1% 0;
+}
+.menu-item-LUNCH-bg p{
+    color: #fff;
+    text-align: center;
+    margin: 0 25%;
+    text-shadow: 2px 2px black;
+}
+#menu-item-DINNER{}
+.menu-item-DINNER-bg{
+  background: url(../images/slide1.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  height: 40vh;
+}
+.menu-item-DINNER-bg h1{
+  font-size:3em;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  padding: 5% 0 1% 0;
+}
+.menu-item-DINNER-bg p{
+    color: #fff;
+    text-align: center;
+    margin: 0 25%;
+    text-shadow: 2px 2px black;
+}
+/*=======menu-item-DRINKS===========*/
+#menu-item-DRINKS{}
+.menu-item-DRINKS-bg{
+  background: url(../images/slide3.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  height: 40vh;
+}
+.menu-item-DRINKS-bg h1{
+  font-size:3em;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  padding: 5% 0 1% 0;
+}
+.menu-item-DRINKS-bg p{
+    color: #fff;
+    text-align: center;
+    margin: 0 25%;
+    text-shadow: 2px 2px black;
+}
 /*		Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 /*		Mobile Layout: 320px. */
