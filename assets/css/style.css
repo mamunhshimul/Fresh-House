@@ -14,6 +14,9 @@ h1,h2,h3,h4,h4,h6,p{
  --prayColor: #EFC34A;
  --seconColor:;
 }
+a,a:hover{
+  text-decoration: none;
+}
 /*===========header-nav-area==========*/
 #header-nav-area{
   background: black;
@@ -116,6 +119,48 @@ background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(7,7,7,1) 50%, r
 .story-bg-2 img{
   width: 100%;   
 }
+/*====================================================================
+              spacial-item-area                                   
+  =====================================================================*/
+  #spacial-item-area{
+    margin: 6% 0;
+  }
+  .maRgin-1{
+    margin: 0px;
+    padding: 0px;
+  }
+  .spacial-item-head h1{
+    font-weight: bold;
+     
+  }
+  .spacial-item-head h2{
+    font-family: var(--styleFont);
+    color: var(--prayColor);
+  
+  }
+  .spacial-item-head p{
+    margin: 0% 25%;
+    font-size: 14px;
+  }
+  .single-spacial-item{
+     margin: 5% 0;
+
+  }
+  .single-spacial-item img{
+    width: 100%;
+  }
+  .single-spacial-item h3{
+    font-size: 17px;
+    margin: 5% 0 1% 0 ;
+  }
+  .single-spacial-item p{
+    font-size: 14px;
+    margin-bottom: 2%;
+  }
+  .single-spacial-item h4{
+    color: var(--prayColor);
+    font-weight: bold;
+  }
 /*====================================================================
               opaning-area css                                    
   =====================================================================*/
@@ -331,14 +376,17 @@ background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(7,7,7,1) 50%, r
 /*===========contract-css==========*/
  #contract-area{
   margin:6% 6%;
+  text-align: center;
  }
  #contract-area h1{
   font-weight: bold;
   text-align: center;
   margin-bottom: 1%;
+  font-weight: bold;
  }
  #contract-area h2{
   font-family: var(--styleFont);
+  font-weight: bold;
   text-align: center;
 }
 .contract-left input{}
@@ -355,6 +403,28 @@ background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(7,7,7,1) 50%, r
     height: 290px;
     padding: 20px;
 }
+/*============= map-area =============*/
+#map-area iframe{
+  width: 100%;
+}
+.single-map-content{
+  border: 1px solid #E7EAED;
+  height: 250px;
+
+}
+#map-area h1{
+  text-align: center;
+}
+#map-area h2{
+  font-family: var(--styleFont);
+  text-align: center;
+}
+.single-map-content i{
+  font-size: 5em;
+ 
+
+}
+
 /* ============= bottom-area==========*/
  #bottom-area{
   background: black;
@@ -489,6 +559,92 @@ background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(7,7,7,1) 50%, r
     margin: 0 25%;
     text-shadow: 2px 2px black;
 }
+#opaning-area {
+    margin: 0.01% 0;
+}
+/*=======menu-item-DRINKS===========*/
+#reservation-contract {}
+.reservation-contract-left input[type="text"],input[type="email"]{
+     width: 100%;
+   padding: 2%;
+   margin:2% 0;
+}
+.Reservation-contract-haed{
+  font-family: var(--styleFont);
+}
+.reservation-contract-right input[type="date"],input[type="time"],input[type="text"]{
+   width: 100%;
+   padding: 2%;
+   margin:2% 0;
+}
+.reservation-contract-right textarea{
+    resize: none;  
+    width:100%;
+    margin:2% 0;
+    height: 250px;
+    padding: 20px;
+}
+#Reservation-contract-right{
+  padding: 10px;
+  color: var(--prayColor);
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+ 
+}
+/*================================================================
+                       blog-css
+===================================================================*/
+#Blog-Area{}                       
+#Blog-Area h1{
+  text-align: center;
+}                       
+#Blog-Area h2{
+  text-align: center;
+  font-family: var(--styleFont);
+}
+.single-blog{
+   
+} 
+.blog-post-thumb{
+  height: 240px;
+  overflow: hidden;
+}
+.blog-post-thumb img{
+  width: 100%;
+}
+ 
+.single-blog{
+  border: .5px solid #DEE1E6;
+  translate:0.8s ease;
+}
+.single-blog:hover{
+  box-shadow: 0 0 20px var(--prayColor);
+  translate:0.8s ease;
+ 
+}
+.single-blog p:nth-of-type(1){
+  font-size: 16px;
+  margin: 5% 10% 1% 5%;
+  font-style: italic;
+} 
+.single-blog h4{
+ font-family: var(--styleFont);
+ font-weight: bold;
+  margin: 0% 10% 0% 5%;
+}
+.single-blog p:nth-of-type(2){
+ font-size: 14px;
+  margin: 0% 10% 0% 5%;
+}               
+#single-blog-btn{
+  font-size: 13px;
+  margin: 0% 10% 0% 5%;
+}
+
+
+
 /*		Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 /*		Mobile Layout: 320px. */
